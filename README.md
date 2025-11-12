@@ -4,7 +4,9 @@ A Go implementation of the Raft consensus algorithm and a fault-tolerant key-val
 
 ## Overview
 
-Eco-Raft is a distributed consensus system implementing the Raft algorithm, which ensures consistency across a cluster of servers even in the presence of failures. The project includes a key-value store (KVRaft) that leverages Raft for fault-tolerant, replicated state management.
+EcoRaft is a lightweight, optimized implementation of the Raft consensus algorithm designed for low-bandwidth and high-latency networks. Unlike traditional Raft implementations that replicate log entries individually, EcoRaft aggregates multiple log entries into a single transmission, significantly reducing network overhead, CPU usage, and replication latency.
+
+This batching approach makes EcoRaft ideal for resource-constrained environments, such as IoT devices, edge networks, remote clusters, or embedded systems, where bandwidth is limited and efficiency is critical. EcoRaft maintains the full reliability and fault-tolerance guarantees of Raft while minimizing communication costs.
 
 ## Features
 

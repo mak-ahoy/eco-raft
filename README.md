@@ -153,6 +153,3 @@ const Debug = 1  // Set to 1 for debugging, 0 to turn off
 - [Raft Paper](https://raft.github.io/raft.pdf) - "In Search of an Understandable Consensus Algorithm"
 - [Raft Visualization](http://thesecretlivesofdata.com/raft/)
 
-## License
-
-This project appears to be educational/assignment code. Please check with your institution regarding usage and distribution policies.

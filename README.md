@@ -146,10 +146,11 @@ const Debug = 1  // Set to 1 for debugging, 0 to turn off
 
 - Designed for testing and educational purposes
 - Uses simulated network rather than real network communication
-- Snapshot functionality (Assignment 3) may not be fully implemented
+- Snapshot functionality not be implemented
 
 ## References
 
 - [Raft Paper](https://raft.github.io/raft.pdf) - "In Search of an Understandable Consensus Algorithm"
 - [Raft Visualization](http://thesecretlivesofdata.com/raft/)
+- Developed further on the foundation laid by the course instructors in the Distributed Systems class at LUMS.
 
